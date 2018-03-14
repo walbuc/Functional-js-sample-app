@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="src/styles/styles.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="center-align">
+          <h1  class="header center teal-text text-lighten-2">Functional JS Weather App</h1>
+          <div class="city-input  js-city-input">
+              <p class="flow-text">
+                Enter a city name around the world:
+              </p>
+              <input type="text" class="js-city-field center-align" />
+              <div class="js-search-city">
+                <a class="waves-effect waves-light btn">Search forecast</a>
+              </div>
+          </div>
+          <br /><br />
+          <div class="city-weather js-city-weather">
+          </div>
+          <script src="weather.dist.js"></script>
+        </div>
+      </div>
+    </body>
+</html>
